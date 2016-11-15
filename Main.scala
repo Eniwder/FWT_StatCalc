@@ -1,6 +1,3 @@
-/**
-  * Created by toshiki on 2016/11/14.
-  */
 object Main extends App {
 
   case class Stat(hp: Int = 0, mp: Int = 0, atk: Int = 0, defence: Long = 0, critRate: Int = 0, critDamage: Double = 0,
@@ -130,8 +127,7 @@ object Main extends App {
   }
 
   // Bセット装備の用意
-  val setNames = List(/*"清明",*/ "強靭" /*,"明瞭"*/ , "エネルギッシュ", "シャープ" /*,"スピーディ"*/ , "丈夫" /*,"逆転"*/
-    /*,"復讐"*/)
+  val setNames = List(/*"清明",*/ "強靭" /*,"明瞭"*/ , "エネルギッシュ", "シャープ" /*,"スピーディ"*/ , "丈夫" /*,"逆転","復讐"*/)
   val rareKind = 5
   // weapon
   val sword = List(Stat(atk = 317, hit = 320), Stat(atk = 752, hit = 399), Stat(atk = 1304, hit = 484), Stat(atk = 2024, hit = 575), Stat(atk = 2966, hit = 672))
